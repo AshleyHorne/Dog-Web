@@ -1,6 +1,8 @@
 import React from 'react';
-import classes from './NavigationItem';
+
+import classes from './NavigationItems.css';
 import NavigationItem from './NavigationItem/NavigationItem';
+
 
 
 const navigationItems = () =>(
@@ -9,7 +11,6 @@ const navigationItems = () =>(
     <NavigationItem link="/"> Post A Pet</NavigationItem>
     <NavigationItem link="/"> Dog Community</NavigationItem>
     <NavigationItem link="/"> Contact Us </NavigationItem>
-        <li><a href="/"> A Link></a></li>
     </ul>
 );
 
