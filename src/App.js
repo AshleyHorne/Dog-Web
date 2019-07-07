@@ -1,12 +1,15 @@
 import React, {Component} from 'react';
 import Layout from './Components/Layout/Layout';
+import Backdrop from '../src/UI/Backdrop/Backdrop';
+
 
 class App extends Component {
   render () {
     return (
   
     <div >
-      <Layout><p> Test</p></Layout>
+      <Layout></Layout>
+      <Backdrop></Backdrop>
     </div>
   );
   

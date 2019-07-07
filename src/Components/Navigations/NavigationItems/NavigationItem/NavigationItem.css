@@ -1,29 +1,32 @@
 .NavigationItem{
 
-    
-    margin: 10px 0;
+    font-size: 140%;
+    margin-left: 135px;
+    padding-top:350px;
+    padding-left:10px;
     box-sizing: border-box;
     display: flex;
-    height: 100%;
-    width: auto;
     align-items: center;
-}
+    flex-wrap: nowrap;
+    
+  }
+  
 
 .NavigationItem a{
     text-decoration: none;
-    height: 100%;
-    padding: 16px 10px;
+    padding: 10px;
     border-bottom: 4px solid transparent;
     box-sizing: border-box;
     display: block;
+    color:rgb(120, 120, 192);
 }
 
 .NavigationItem a:hover,
 .NavigationItem a:active,
 .NavigationItem a:active{
     
-    background-color: rgb(216, 167, 121);
-    border-bottom: 4px solid green;
+    background-color: rgb(219, 185, 152);
+    border-bottom: 4px solid rgb(122, 190, 122);
     color: Brown;
 
 }

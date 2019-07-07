@@ -4,13 +4,24 @@ import Logo from '../../Logo/Logo';
 import NavigationItems from '../NavigationItems/NavigationItems';
 
 
+import SocialItems from '../../SocialLinks/SocialItems';
+
+
+
 const toolbar = (props) => (
+    <div>
     <header className={classes.Toolbar}>
        <nav>
+           
             <NavigationItems/>
+            <Logo/>
         </nav>
-        <Logo/>
+        
     </header>
+    
+
+   
+    </div>
 );
 
 export default toolbar;

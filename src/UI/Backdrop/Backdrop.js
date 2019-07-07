@@ -1,12 +1,14 @@
 import React from 'react';
-import classes from './Backdrop.css';
+
+import dogo from '../../Asset/Image/dogbackground.jpg';
 
 
-const backdrop = (props) => (
-    props.show? 
-    <div className={classes.Backdrop}>
 
-    </div> :null
+const Backdrop = (props) => (
+ 
+      <img src = {dogo} alt="Icon"/>
+  
+
 );
 
-export default backdrop;
+export default Backdrop;

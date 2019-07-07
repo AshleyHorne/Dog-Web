@@ -1,6 +1,23 @@
 
-
-img {
-    height: 80px;
+.dogo{
+    height: 130px;
+    display: inline-block;
     border-radius: 50%;
+    margin-left: 558px;
+    margin-bottom: 300px;
+    top: 60px;
+    border-color: rgb(89, 89, 92);
+    border-style: double;
+    border-width:  10px;
+    background-color: rgb(174, 209, 174);
+  
 }
+
+.ColorText{
+    font-size: 20px;
+    color: blue;
+    text-shadow: 20px;
+    padding: -30px;
+}
+
+
