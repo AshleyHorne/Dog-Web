@@ -4,7 +4,6 @@ import Logo from '../../Logo/Logo';
 import NavigationItems from '../NavigationItems/NavigationItems';
 
 
-import SocialItems from '../../SocialLinks/SocialItems';
 
 
 
@@ -15,7 +14,10 @@ const toolbar = (props) => (
            
             <NavigationItems/>
             <Logo/>
+            
+           
         </nav>
+        
         
     </header>
     
