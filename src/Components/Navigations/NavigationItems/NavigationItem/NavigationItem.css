@@ -16,16 +16,15 @@
     border-bottom: 4px solid transparent;
     box-sizing: border-box;
     display: block;
-    background-color:white;
-    color:rgb(120, 120, 192);
+    background-color:#659DBD;
+    color:#FBEEC1;
 }
 
 .NavigationItem a:hover,
 .NavigationItem a:active,
 .NavigationItem a:active{
     
-    background-color: rgb(219, 185, 152);
-    border-bottom: 4px solid rgb(122, 190, 122);
-    color: Brown;
+    background-color: #DAAD86;
+    color: #8d8741;
 
 }

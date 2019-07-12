@@ -16,7 +16,7 @@ class DogLogo extends Component {
           height: "auto",
           minHeight: "60px",
           marginLeft:"575px",
-          borderColor: "Black",
+          borderColor: "#BC986A",
           borderStyle: "double",
           borderWidth:  "10px"
            }}

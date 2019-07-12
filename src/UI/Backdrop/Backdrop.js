@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 
 import dogo from '../../Asset/Image/dog-picture.jpg';
 import SocialItems from '../../Components/SocialLinks/SocialItems';
-import { CoverageMap } from 'istanbul-lib-coverage';
+
 
 
 
@@ -12,16 +12,20 @@ class Backdrop extends Component {
       <div >
       <img  src = {dogo} 
       style={{ 
-        objectFit:"cover",
       
-      width:"99%",
-     opacity: "1",
-      marginTop:"250px",
-      maxHeight:"455px",
-      marginLeft: "0px",
+      opacity: "0.7",
+      display: "block",
+      marginTop:"230px",
+      marginLeft:"1%",
+      width:"97%",
+      
+      
+      maxHeight: "450px",
+      
+      
       borderColor: "Black",
       borderStyle: "double",
-      borderWidth:  "6px"
+      borderWidth:  "7px"
         }}
         alt="image"
         />
