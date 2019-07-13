@@ -1,12 +1,7 @@
 .NavigationItem{
-    font-size: 140%;
-    margin-left: 140px;
-    padding-top:450px;
-    padding-left:15px;
-    box-sizing: border-box;
-    border:4px;
     display: flex;
-    align-items: center; 
+
+
   }
   
 

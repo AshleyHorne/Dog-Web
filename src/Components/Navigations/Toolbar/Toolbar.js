@@ -7,13 +7,15 @@ import NavigationItems from '../NavigationItems/NavigationItems';
 
 
 
+
 const toolbar = (props) => (
-    <div>
+
     <header className={classes.Toolbar}>
        <nav>
-           
+       <Logo/>
             <NavigationItems/>
-            <Logo/>
+            
+        
             
            
         </nav>
@@ -22,8 +24,7 @@ const toolbar = (props) => (
     </header>
     
 
-   
-    </div>
+
 );
 
 export default toolbar;
