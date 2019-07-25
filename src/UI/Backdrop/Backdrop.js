@@ -14,11 +14,13 @@ class Backdrop extends Component {
       style={{ 
   
       opacity: "0.7",
-      marginLeft:"1%",
-      width:"97%",
+      marginLeft:"13%",
+      width:"67%",
       maxHeight: "450px",
       borderStyle: "double",
-      borderWidth:  "7px"
+      backgroundColor: "white",
+      borderWidth:  "35px 80px",
+      
         }}
         alt="image"
         />

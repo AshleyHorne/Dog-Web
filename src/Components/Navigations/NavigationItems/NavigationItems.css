@@ -1,8 +1,14 @@
 .NavigationItems{
-    font-size:20px;
+    font-size:25px;
     display: flex;
+    padding: 20px;
     justify-content: space-between;
-    margin-left: 18%;
-    width: 90%;
+    background-color:darkolivegreen; 
+    border-color:black;
+    border-style: double;
+    border-width: 10px;
+    
+  font-family: Georgia, "Times New Roman", Times, serif; 
+
 
 }
